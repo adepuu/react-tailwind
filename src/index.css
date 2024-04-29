@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SF Compact Text';
+  font-style: italic;
+  font-weight: 400;
+  src: local('SF Compact Text'), url('https://fonts.cdnfonts.com/s/14246/sf-compact-text-italic-58646f7cbab10.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF Compact Text';
+  font-style: normal;
+  font-weight: 800;
+  src: local('SF Compact Text'), url('https://fonts.cdnfonts.com/s/14246/sf-compact-text-heavy-58646f645b774.woff') format('woff');
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
